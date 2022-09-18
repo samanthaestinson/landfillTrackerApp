@@ -5,9 +5,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="images/landfill.png" alt="Logo" width="80" height="80">
-  </a>
   <h3 align="center">Landfill Tracker</h3>
   <p align="center">
     A virtual landfill to show the lifecyle of the accumulation and decomposition of ones own waste.
