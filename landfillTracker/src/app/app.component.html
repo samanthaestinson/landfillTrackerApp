@@ -1,6 +1,19 @@
-<button mat-raised-button>Basic</button>
-<button mat-raised-button color="primary">Primary</button>
-<button mat-raised-button color="accent">Accent</button>
-<button mat-raised-button color="warn">Warn</button>
-<button mat-raised-button disabled>Disabled</button>
-<button mat-button color="warn">Warn</button><mat-slider min="1" max="100" step="1" value="50"></mat-slider>
+ <mat-toolbar color="primary">
+  <button mat-icon-button class="toolbar-icon" aria-label="icon-button with menu icon">
+    <mat-icon>menu</mat-icon>
+  </button>
+  <span>My Virtual Landfill</span>
+  <button mat-icon-button class="toolbar-icon" aria-label="icon-button with person icon">
+   <mat-icon>person</mat-icon>
+ </button>
+ <span class="toolbar-spacer"></span>
+ <button mat-icon-button class="toolbar-icon favorite-icon" aria-label="icon-button with delete icon">
+   <mat-icon>delete</mat-icon>
+  </button>
+  <button mat-icon-button class="toolbar-icon" aria-label="icon-button with forest icon">
+   <mat-icon>forest</mat-icon>
+ </button>
+ <button mat-icon-button class="toolbar-icon" aria-label="icon-button with share icon">
+  <mat-icon>share</mat-icon>
+</button>
+</mat-toolbar>
